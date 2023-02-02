@@ -14,7 +14,6 @@ void solve(vector<int> vi){
             for(auto &j : vi){
                 res += j;
             }
-                
             cout << res << "\n";
             return;
         }
