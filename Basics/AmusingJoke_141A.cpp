@@ -14,17 +14,6 @@ using namespace std;
 #define upper(string_to_upper) for(auto& c : string_to_upper){ c = toupper(c); }
 #define vsort(sort_vector) sort(sort_vector.begin(), sort_vector.end())
 
-
-void viRead(vector<int>& vi){
-    int n, dummy;
-    cin >> n;
-    for(int i=0; i<n; i++){
-        cin >> dummy;
-        vi.pb(dummy);
-    }
-}
-
-
 int main()
 {
 
